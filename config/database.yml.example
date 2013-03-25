@@ -4,7 +4,7 @@ development:
   encoding: unicode
   database: gabble_pages_development
   pool: 5
-  username: vincent
+  username: herpderp
   password: passw0rd
 
 test:
@@ -13,5 +13,5 @@ test:
   encoding: unicode
   database: gabble_pages_test
   pool: 5
-  username: vincent
+  username: herpderp
   password: passw0rd
