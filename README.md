@@ -14,8 +14,10 @@ Starting Development
 
       export GABBLE_SECRET='thissecretmustbe30characterslong'
 
-3. Run `bundle install`
+3. Reload your profile with `. ~/.bash_profile`
 
-4. Run `bundle exec rake db:create`
+4. Run `bundle install`
 
-5. Run `bundle exec rake db:migrate`
+5. Run `bundle exec rake db:create`
+
+6. Run `bundle exec rake db:migrate`
