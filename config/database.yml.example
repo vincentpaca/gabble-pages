@@ -1,0 +1,17 @@
+development:
+  host: localhost
+  adapter: postgresql
+  encoding: unicode
+  database: gabble_pages_development
+  pool: 5
+  username: vincent
+  password: passw0rd
+
+test:
+  host: localhost
+  adapter: postgresql
+  encoding: unicode
+  database: gabble_pages_test
+  pool: 5
+  username: vincent
+  password: passw0rd
