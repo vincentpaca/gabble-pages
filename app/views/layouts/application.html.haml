@@ -6,5 +6,11 @@
     = javascript_include_tag "application"
     = csrf_meta_tags
 
+    %script{ :type => "text/javascript", :src => "//use.typekit.net/gus0stn.js" }
+    :javascript
+      try{
+        Typekit.load();
+      }catch(e){}
+
   %body
     = yield
