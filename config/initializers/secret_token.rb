@@ -7,4 +7,4 @@ if Rails.env.production?
   end
 else
 	GabblePages::Application.config.secret_token =  "2inobn0zskftfqw991izhsy1wtxa25kzui46vihh6cjxbdeaok1qm7h2iiluyetyvquhn8bqx4l"
-
+end
