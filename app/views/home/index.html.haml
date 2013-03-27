@@ -1,4 +1,36 @@
-%h1 Gabble.it
-%h2 This is an h2
-%h3 This is an h3
-%p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos saepe expedita in nemo unde maxime ducimus quis corporis nisi nulla accusantium perspiciatis possimus quae similique voluptates ullam debitis mollitia fuga.
+#header-wrapper
+	%header.container.clearfix#header-main
+		%h1 Manage <span class="red">tasks</span> on Skype
+		%p.hint Try Chatting with the Gabble bot to start tracking your tasks
+		%input(type="text" autofocus="autofocus") 
+		%img(src="assets/skype.png" id="img-skype")
+		%img(src="assets/gabble.png" id="img-gabble")
+
+.container#main-content
+	.row
+		.span12#hours
+			%p <span>123,130,100</span> total hours saved
+	.row
+		.span4 
+			%img(src="assets/tasks.png")
+			%h3 Track Tasks
+			%p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate corporis repudiandae necessitatibus molestiae est cumque iure 
+		.span4 
+			%img(src="assets/time.png")
+			%h3 Log Time
+			%p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate corporis repudiandae necessitatibus molestiae est cumque iure 
+		.span4 
+			%img(src="assets/reports.png")
+			%h3 Send Reports
+			%p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate corporis repudiandae necessitatibus molestiae est cumque iure 
+
+#signup-wrap
+	.container#signup
+		.row
+			.span6
+				%h1 Gabble
+			.span6
+				%input(type="text")
+				%a(class="btn") Get Notified
+
+
