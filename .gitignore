@@ -14,5 +14,8 @@
 /log/*.log
 /tmp
 
+gabble_pages_development
+gabble_pages_test
+
 # Database
 config/database.yml
