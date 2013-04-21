@@ -1,41 +1,19 @@
-#header-wrapper
-	%header.container.clearfix#header-main
-		%h1 
-			Manage 
-			%span.red tasks 
-			on Skype
-		%p.hint Try Chatting with the Gabble bot to start tracking your tasks
-		%input(type="text" autofocus="autofocus") 
-		%img(src="assets/skype.png" id="img-skype")
-		%img(src="assets/gabble.png" id="img-gabble")
-
-.container#main-content
+.container 
+	%header 
+		%h1 Gabble
 	.row
-		.span12#hours
-			%p 
-				%span 123,130,100 
-				total hours saved
+		.span12
+			%h2#tagline Git Commit Time Tracking 
+	
 	.row
-		.span4 
-			%img(src="assets/tasks.png")
-			%h3 Track Tasks
-			%p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate corporis repudiandae necessitatibus molestiae est cumque iure 
-		.span4 
-			%img(src="assets/time.png")
-			%h3 Log Time
-			%p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate corporis repudiandae necessitatibus molestiae est cumque iure 
-		.span4 
-			%img(src="assets/reports.png")
-			%h3 Send Reports
-			%p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate corporis repudiandae necessitatibus molestiae est cumque iure 
+		.span12
+			#screenshot
+				%img{:src => "http://placehold.it/800x450", :alt => ""}/ 
+			
+	.row
+		.span12
 
-#signup-wrap
-	.container#signup
-		.row
-			.span6
-				%h1 Gabble
-			.span6
-				%input(type="text")
-				%a(class="btn") Get Notified
-
+		.span12
+			%input{:type => "text"}/
+			%input{:type => "submit", :value => "I want it"}/  
 

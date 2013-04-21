@@ -13,3 +13,14 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+
+$(document).ready(function(){
+
+  // $('#tagline').hide
+    // .fadeIn({
+    //   duration: 'slow',
+    //   queue: false
+    // })
+    // .css('display','none')
+    // .slideDown('slow');  
+});
