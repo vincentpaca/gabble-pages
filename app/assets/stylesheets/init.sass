@@ -1,5 +1,12 @@
 @import "bootstrap.min"
 
+$main-color: #323537
+
+body
+	background: $main-color
+	color: lighten($main-color, 60%)
+	text-shadow: 0 1px 0 rgba(0,0,0,1)
+
 body, 
 input,
 li
@@ -10,7 +17,91 @@ input[type="text"]
 
 #tagline
 	text-align: center
+	font-weight: normal
 
 #screenshot
 	width: 800px
 	margin: 0 auto
+
+#first,
+#second,
+#third,
+#screenshot,
+header
+	display: none
+
+#messaging
+	width: 480px
+	margin: 0 auto
+
+#first,
+#second,
+#third
+	margin-top: 72px
+	float: left
+	font-size: 32px
+	margin-right: 10px
+
+#first
+	width: 120px
+
+#second
+	width: 185px
+
+#third
+	width: 130px
+
+#mail-wrapper
+	font-size: 16px
+
+#screenshot
+	margin: 18px auto 36px
+	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.5)
+	-moz-box-shadow: 0 0 20px rgba(0,0,0,0.5)
+	box-shadow: 0 0 20px rgba(0,0,0,0.5)
+
+#head-wrap
+	header
+		position: absolute
+
+	h1
+		color: lighten($main-color, 20%)
+		font-size: 18px
+
+	h3
+		font-weight: normal
+		font-size: 18px
+		color: lighten($main-color, 20%)
+
+#mail-wrapper
+	position: fixed
+	bottom: 0
+	width: 100%
+	color: $main-color
+	padding: 18px 0
+	text-shadow: none
+	background: white
+
+	.container
+
+
+	.btn-primary,
+	input
+		border-radius: 100px
+
+	input[type="submit"]
+		position: absolute
+		top: 5px
+		left: 285px
+
+	input[type="text"]
+		width: 75%
+		top: 6px
+		right: 80px
+		padding: 9px 12px 9px 12px
+
+	#main-holder
+		position: relative
+
+
+

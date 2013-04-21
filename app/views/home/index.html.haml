@@ -1,19 +1,33 @@
+#head-wrap
+	.container 
+		.row
+			%header
+				.span9 
+					%h1 Gabble
+				.span3
+					%h3 Easy Git Time Tracking
+
 .container 
-	%header 
-		%h1 Gabble
 	.row
-		.span12
-			%h2#tagline Git Commit Time Tracking 
+		#messaging
+			#first 
+				Commit. 
+			#second 
+				Track Hours. 
+			#third 
+				Invoice.
 	
 	.row
 		.span12
 			#screenshot
 				%img{:src => "http://placehold.it/800x450", :alt => ""}/ 
-			
-	.row
-		.span12
 
-		.span12
-			%input{:type => "text"}/
-			%input{:type => "submit", :value => "I want it"}/  
+#mail-wrapper
+	.container
+		.row
+			.span6
+				Notify me when it's ready
+			.span6#main-holder
+				%input{:type => "text"}/
+				%input{:type => "submit", :value => "I want it", :class => "btn btn-primary"}/  
 

@@ -16,11 +16,21 @@
 
 $(document).ready(function(){
 
-  // $('#tagline').hide
-    // .fadeIn({
-    //   duration: 'slow',
-    //   queue: false
-    // })
-    // .css('display','none')
-    // .slideDown('slow');  
+	function itemFade(item,delayTime) {
+		$(item)
+			.delay(delayTime)
+			.fadeIn({
+	      duration: 'slow',
+	      queue: false
+	    })
+	    .css('display','none')
+	    .slideDown('slow');
+	}
+
+	itemFade($('#first'),1000);
+	itemFade($('#second'),1500);
+  itemFade($('#third'),2000);
+
+  $('header').delay(3000).slideDown("slow");
+  $('#screenshot').delay(3000).fadeIn("slow");
 });
