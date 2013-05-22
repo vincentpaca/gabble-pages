@@ -33,4 +33,5 @@ $(document).ready(function(){
 
   $('header').delay(3000).slideDown("slow");
   $('#screenshot').delay(3000).fadeIn("slow");
+  $('#mail-wrapper').delay(3000).fadeIn("slow");
 });
